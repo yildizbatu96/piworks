@@ -1,0 +1,6 @@
+def degis(ilk,iki):
+    ilk = input("Please enter the 1st variable: ")
+    iki = input("Please enter the 2nd variable: ")
+    
+    return f"The value of the 1st variable: {ilk}\n The value of the 2nd variable: {iki}"
+print(degis(1,2))
